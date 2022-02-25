@@ -1,0 +1,178 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: rgb(45, 134, 89);
+}
+
+#plateau {
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+td {
+	position: relative;
+	height: 70px;
+	width: 140px;
+}
+
+.caseVisible {
+	border: 1px solid black;
+	background: grey;
+	color: white;
+}
+
+.caseVisible img {
+	height: 30px;
+	width: 30px;
+}
+
+#c9 {
+	border-radius: 5px / 5px;
+}
+
+.indiceCase {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#logoMB img {
+	height: 130px;
+	width: 130px;
+}
+
+.borneKm img {
+	height: 60px;
+	width: 60px;
+}
+
+#espaceJoueur {
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-weight: bold;
+}
+
+#joueur1, #joueur2, #joueur3, #joueur4 {
+	position: relative;
+	background: rgb(102, 204, 153);
+	width: 20%;
+	height: 650px;
+	border-radius: 10px / 10px;
+}
+
+#joueur1 {
+	border: 8px solid blue;
+}
+
+#joueur2 {
+	border: 8px solid yellow;
+}
+
+#joueur3 {
+	border: 8px solid purple;
+}
+
+#joueur4 {
+	border: 8px solid red;
+}
+
+.indiceJoueur {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#pioche, #defausse {
+	height: 250px;
+	width: 180px;
+	border: 5px solid black;
+	border-radius: 10px / 10px;
+	background: rgb(102, 204, 153);
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#piocheDefausse {
+	margin-top: 40px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#pioche img {
+	height: 70%;
+	width: 70%;
+}
+
+#defausse img {
+	height: 70%;
+	width: 70%;
+}
+
+
+#cartesJoueur1, #cartesJoueur2, #cartesJoueur3, #cartesJoueur4 {
+	height: 100px;
+	margin-top: 35px;
+	padding-left: 5px;
+}
+
+.batailleJoueur, .vitesseJoueur, .bornesJoueur {
+	height: 120px;
+	margin-top: 35px;
+	padding: 6px;
+	width: 150px;
+	border: 2px solid white;
+	border-radius: 5px / 5px;
+	text-align: center;
+}
+
+#bottesJoueur1, #bottesJoueur2, #bottesJoueur3, #bottesJoueur4 {
+	height: 120px;
+	margin-top: 20px;
+	padding: 6px;
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 5px / 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#espaceJoueur img {
+	height: 80px;
+	width: 50px;
+}
+
+form select {
+	height: 30px;
+}
+
+form button {
+	height: 30px;
+}
+
+
+#boutonConfirmation  {
+	margin-top: 20px;
+	transform: translateX(50%);
+}
+
+#boutonConfirmation button {
+	height: 30px;
+	font-weight: bold;
+}
+
+.groupePiles {
+	display: flex;
+	justify-content: space-around;
+}
