@@ -16,6 +16,7 @@ The first one reaching 1000 wins.
 **Developing:**
 
 I used an HTML table to make the board.
+As said earlier, the game is made with Javascript, and just a little bit of jQuery here and there.
 To reproduce the turn-based gameplay style, the users must each turn confirm their action before the next player is allowed to play.
 To interact with the cards, I used a drag'n'drop system.
 When the game starts, a function will create a card pile from which to draw. Each player gets 6 random cards.
