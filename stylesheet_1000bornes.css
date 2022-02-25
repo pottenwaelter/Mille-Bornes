@@ -1,0 +1,248 @@
+* {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+	background: rgb(45, 134, 89);
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+}
+
+#formNbrJoueurs {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+#regles {
+	font-size: 0.7em;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+
+#plateau {
+	text-align: center;
+	border-collapse: collapse;
+	margin-top: 50px;
+}
+
+td {
+	position: relative;
+	height: 70px;
+	width: 140px;
+}
+
+.caseVisible {
+	border: 1px solid black;
+	background: grey;
+	color: white;
+}
+
+.caseVisible img {
+	height: 30px;
+	width: 30px;
+}
+
+#c9 {
+	border-radius: 5px / 5px;
+}
+
+.indiceCase {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#logoMB img {
+	height: 130px;
+	width: 130px;
+}
+
+.borneKm img {
+	height: 60px;
+	width: 60px;
+}
+
+#espaceJoueur {
+	width: 98%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	color: white;
+	font-weight: bold;
+}
+
+#indicationPioche {
+	color: white;
+	font-weight: bold;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: 220px;
+	left: 220px;
+}
+
+#indicationPioche img {
+	height: 80px;
+	width: 80px;
+}
+
+#joueur1, #joueur2, #joueur3, #joueur4 {
+	position: relative;
+	background: rgb(102, 204, 153);
+	width: 300px;
+	height: 650px;
+	border-radius: 10px / 10px;
+	min-width: 300px;
+}
+
+#joueur1 {
+	border: 8px solid blue;
+}
+
+#joueur2 {
+	border: 8px solid yellow;
+}
+
+#joueur3 {
+	border: 8px solid purple;
+}
+
+#joueur4 {
+	border: 8px solid red;
+}
+
+#kmTotaux1, #kmTotaux2, #kmTotaux3, #kmTotaux4 {
+	position: relative;
+	bottom: 3px;
+	font-size: 0.8em;
+	color: white;
+}
+
+.indiceJoueur {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+#pioche, #defausse {
+	height: 250px;
+	width: 180px;
+	border: 5px solid black;
+	border-radius: 10px / 10px;
+	background: rgb(102, 204, 153);
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#piocheDefausse {
+	margin-top: 40px;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+#pioche img {
+	height: 70%;
+	width: 70%;
+}
+
+#defausse img {
+	height: 70%;
+	width: 70%;
+}
+
+
+#cartesJoueur1, #cartesJoueur2, #cartesJoueur3, #cartesJoueur4 {
+	height: 100px;
+	margin-top: 35px;
+	padding-left: 5px;
+}
+
+.batailleJoueur, .vitesseJoueur, .bornesJoueur {
+	height: 120px;
+	margin-top: 35px;
+	padding: 6px;
+	border: 2px solid white;
+	border-radius: 5px / 5px;
+	text-align: center;
+}
+
+.bornesJoueur {
+	width: 200px;
+}
+
+.batailleJoueur, .vitesseJoueur {
+	width: 110px;
+}
+
+
+#bottesJoueur1, #bottesJoueur2, #bottesJoueur3, #bottesJoueur4 {
+	height: 120px;
+	margin-top: 20px;
+	padding: 6px;
+	width: 200px;
+	border: 2px solid white;
+	border-radius: 5px / 5px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#espaceJoueur img {
+	height: 70px;
+	width: 40px;
+}
+
+form select {
+	height: 30px;
+	width: 250px;
+}
+
+form button {
+	height: 30px;
+	width: 250px;
+}
+
+
+#boutonConfirmation  {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#boutonConfirmation button {
+	height: 30px;
+	font-weight: bold;
+}
+
+.groupePiles {
+	display: flex;
+	justify-content: space-around;
+}
+
+#indicationZoneJeu {
+	color: white;
+	font-weight: bold;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#indicationPourJouer {
+	color: white;
+	font-weight: bold;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
